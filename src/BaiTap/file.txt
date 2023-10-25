@@ -1,0 +1,18 @@
+-- Lệnh trở về 1 bước (back to 1 step)
+cd ..
+
+--Trỏ vào thư mục /tệp con của vị trí đang đứng
+cd [tên file con] 
+
+--Chuyển ổ (ví dụ từ ổ C sang ổ F) 
+C:\>F:
+
+--Git cơ bản
+---Khởi tạo kho lưu trữ
+git init
+---kiểm tra trạng thái của dự án
+git status
+---thêm 1 file vào git      ---thêm tất cả vào git
+git add [tên file]          git add . 
+---xác nhận sự thay đổi đấy
+git commit -m "tên commit"
